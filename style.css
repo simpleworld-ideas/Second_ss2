@@ -1,0 +1,170 @@
+#hero {
+    background-image: url(image/SPEND.png);
+    background-size: cover;
+    height: 600px;
+    margin: 20px;
+    position: relative;
+  }
+  
+  #call-to-action {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    padding: 10px;
+  }
+  
+  .first {
+    font-family: 'Honk', system-ui;
+font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+  }
+  
+  #second{
+    display: flex; /* Use flexbox layout */
+    
+            flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+            justify-content: center; 
+            /* Align items horizontally to the center */
+            align-items: center; /* Align items vertically to the center */
+            height: 500px; /* Set height for demonstration */
+            border: 2px solid black; /* Just for demonstration */
+         /* Center the container horizontally */
+            width: 100%; /* Set width for demonstration */
+            
+            background-image: url(/image/Styled-Stock-Society-Teal-Office-18-scaled.jpg);
+  }
+  #head2{
+    position: relative;
+    font-family: "Caveat";
+    background-color :black;
+    color: antiquewhite;
+    /* Make text transparent */
+            border: 3px solid #ff6600; /* Add border */
+            font-size: 36px; /* Set font size */
+            font-weight: bold; /* Set font weight */
+            padding: 10px;
+  }
+
+  .container2 {
+    
+    text-align: center;
+    position: absolute;
+    margin-top: 150px;
+    
+
+}
+
+/* Style for the signup button */
+.signup-button {
+    padding: 10px 20px; /* Add padding for better appearance */
+            font-size: 16px; /* Adjust font size */
+            background-color: #007bff; /* Set background color */
+            color: #fff; /* Set text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add border radius for rounded corners */
+            cursor: pointer; /* Add cursor pointer for hover effect */
+            transition: background-color 0.3s; 
+}
+
+/* Hover effect for the signup button */
+.signup-button:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
+  #about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+  
+  .about-p {
+    color: white;
+  }
+  
+  .carousel{
+    margin: 10px;
+  }
+  
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  footer{
+    background-color: black;
+  }
+  .footerContainer{
+  
+    width: 100%;
+    padding: 20px;
+  }
+  .socialIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcons a i{
+    font-size: 2em;
+    
+  }
+  .socialIcons a:hover{
+    background-color: black;
+    transition: 0.5;
+  }
+  
+  .socialIcons a:hover i{
+    color: white;
+    transition: 0.5;
+  }
+  .footerNav{
+    margin: 30px;
+  }
+  .footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .footerNav ul li{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .footerBottom{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .footerBottom p{
+    color: white;
+  }
+  .designer{
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+  }
+  @media (max-width: 700px){
+    .footerNav ul{
+      flex-direction: column;
+    }
+    .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+    }
+  }
