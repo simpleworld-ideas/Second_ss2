@@ -168,3 +168,18 @@ font-family: 'Oswald', sans-serif;
       margin: 10px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+  .container{
+      display: flex;
+      flex-direction: column;
+  }
+  #hero {
+    
+    background-size: cover;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+  }
+
+}

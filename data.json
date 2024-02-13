@@ -1,0 +1,20 @@
+{
+    "company":"ACME Pte Ltd.",
+    "valuation": {
+        "net_worth": 100000,
+        "credit_limt": 50000
+    },
+    "products":["Anvils", "Hammers", "Bandages", "Bombs", "Cannons"],
+    "employees":[
+        {
+            "employeeNumber":1,
+            "title":"CEO",
+            "name":"Coleman"
+        },
+        {
+            "employeeNumber":2,
+            "title":"VP Sales",
+            "name":"Anderson"
+        }
+    ]
+}

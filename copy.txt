@@ -1,0 +1,29 @@
+ const Table=document.createElement('table');
+        Table.classList.add("table table-success table-striped table-hover");
+
+    // Create table rows and cells
+    
+
+    // Append the table to the body of the document
+    Table.innerHTML=`
+    <thead>
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Essentiol / NOn</th>
+      <th scope="col">Type</th>
+      <th scope="col">Namepe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      <td> ${e.date}</td>
+      <td> ${e.amount}</td>
+      <td> ${e.urgency}</td>
+      <td> ${e.expence}</td>
+      <td> ${e.taskName}</td>
+      <td><button class="btn btn-primary btn-sm edit-button">Edit</button></td>
+      <td><button class="btn btn-danger btn-sm delete-button">Delete</button></td>
+    </tr>
+  </tbody>                    
+        `
