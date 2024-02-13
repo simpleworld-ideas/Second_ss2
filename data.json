@@ -5,16 +5,25 @@
         "credit_limt": 50000
     },
     "products":["Anvils", "Hammers", "Bandages", "Bombs", "Cannons"],
-    "employees":[
+    "Salary":[
         {
-            "employeeNumber":1,
-            "title":"CEO",
-            "name":"Coleman"
+            "No":1,
+            "Month":"January",
+            "Salary":2000,
+            "Balance":500
+
         },
         {
-            "employeeNumber":2,
-            "title":"VP Sales",
-            "name":"Anderson"
+            "No":2,
+            "Month":"February",
+            "Salary":2000,
+            "Balance":100
+        },
+        {
+            "No":3,
+            "Month":"March",
+            "Salary":2000,
+            "Balance":350
         }
     ]
 }
