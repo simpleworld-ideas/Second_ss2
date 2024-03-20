@@ -59,6 +59,7 @@ function deleteTask(expensArray, id) {
 
 async function loadTasks() {
     const response = await axios.get(BASE_JSON_BIN_URL + "/" + BIN_ID + "/latest");
+    console.log(response.data);
     return response.data.record;
   }
 

@@ -7,16 +7,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
 async function main() {
 
+    let expensArray= await loadTasks();
+    console.log(expensArray);
+
+//     const BASE_JSON_BIN_URL = "https://api.jsonbin.io/v3/b";
+//     const BIN_ID = "65caf23bdc74654018a405ae";
+//     const MASTER_KEY = "$2a$10$ur0gtvziQfckbgLLIzGzJudUtqCzse44LDsoHlhJx8o.irIfjZ2.q";
 
 //     const axios = require('axios');
 
 // const binId = 'YOUR_BIN_ID'; // Replace with your actual JSONBin bin ID
-// const dataArray = [/* Your array data here */];
+// const dataArray = [1,"12-03-2024","Walk", "50", "Essential","Bill"];
 
-// axios.put(`https://api.jsonbin.io/b/${binId}`, dataArray, {
+// axios.put(`https://api.jsonbin.io/b/${BIN_ID}`, expensArray, {
 //   headers: {
 //     'Content-Type': 'application/json',
-//     'X-Master-Key': 'YOUR_MASTER_KEY' // Replace with your actual JSONBin master key
+//     'X-Master-Key': MASTER_KEY // Replace with your actual JSONBin master key
 //   }
 // })
 //   .then(response => {
@@ -29,13 +35,13 @@ async function main() {
 
 
 
-    let expensArray= []; 
+    
     
     // this array will store all our expensArray
 
 
     // create some sample data to test displaying the list of tasks
-    createTask(expensArray, "12-03-2024","Walk", "50", "Essential","Bill");
+    // createTask(expensArray, "12-03-2024","Walk", "50", "Essential","Bill");
     
 
     // display all the tasks for the first time
@@ -72,7 +78,7 @@ async function main() {
 
     const saveButton = document.querySelector("#save-btn");
     saveButton.addEventListener("click", async function() {
-      saveTasks(todos);
+      saveTasks(expensArray);
     })
 }
 
